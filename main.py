@@ -10,7 +10,7 @@ def afficher_menu():
 
 def convertir_pouces_en_cm():
     while True:
-        pouces = input("Veuillez saisir le nombre à convertir : ")
+        pouces = input("Veuillez saisir le nombre en pouces à convertir : ")
         try:
             pouces_float = float(pouces)
             calcul = pouces_float * POUCE
@@ -29,7 +29,7 @@ def convertir_pouces_en_cm():
 
 def convertir_cm_en_pouces():
     while True:
-        cm = input("Veuillez saisir le nombre à convertir : ")
+        cm = input("Veuillez saisir le nombre en cm à convertir : ")
         try:
             cm_float = float(cm)
             calcul = cm_float * CM
